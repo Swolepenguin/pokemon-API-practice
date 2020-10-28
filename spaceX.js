@@ -1,15 +1,15 @@
 fetch('http://api.spacexdata.com/v3capsules')
 .then(response =>{
-    return respnse.json();
+    return response.json();
 })
 .then(spacXdata =>{
-    console.log(spacXdata)
+    console.log(spaceXdata)
 })
 
 fetch('https://api.spacexdata.com/v3/dragons')
-.then(resoponse =>{
+.then(response =>{
     return response.json();
 })
 .then(response =>{
-    console.log(spacXdata)
+    console.log(spaceXdata)
 })
